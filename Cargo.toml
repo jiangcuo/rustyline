@@ -64,3 +64,6 @@ features = ["with-dirs", "with-fuzzy"]
 all-features = false
 no-default-features = true
 default-target = "x86_64-unknown-linux-gnu"
+
+[patch.crates-io]
+nix = {  git = "https://github.com/jiangcuo/nix" , rev = "d74f46e495e7029c925d21a976d2fec90f6eff37" }
